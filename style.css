@@ -332,10 +332,9 @@ hr{
     margin-bottom: 20px;
 }
 
-.link-title small{
+small{
     font-size: 13px;
     color: #777;
-
 }
 
 .footer-info{
@@ -357,8 +356,18 @@ hr{
 
 }
 
+.copyright-text{
+    margin-left: 100px;
+}
+
+.copyright-text h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+
+
 .copyright-text, .footer-logo{
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 
 .social-icons{
@@ -366,7 +375,7 @@ hr{
     position: fixed;
     top: 50%;
     left: 0;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     z-index: 1;
 }
 
